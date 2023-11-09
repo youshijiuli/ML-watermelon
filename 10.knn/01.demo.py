@@ -3,7 +3,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-plt.rcParams["font.sans-serif"] = ["Arial Unicode MS"]
+
+plt.rcParams["font.sans-serif"] = ["SimHei"]
 plt.rcParams["axes.unicode_minus"] = False
 
 
@@ -20,5 +21,4 @@ plt.scatter(rawdata["打斗镜头"], rawdata["接吻镜头"])
 plt.xlabel("打斗")
 plt.ylabel("接吻")
 plt.grid()
-plt.legend()
 plt.show()
